@@ -1,0 +1,238 @@
+body {
+    background-color: whitesmoke;
+  }
+.content { 
+   display: flex;
+} 
+.main {
+  width: 80% ; 
+  display: flex; 
+  background-color: #fff; 
+  margin: 0 40px; 
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: 25px;
+}  
+.main-img-wrapper{
+  margin-right: 20px;
+}
+.main-img-wrapper .img-main{
+  width: 350px;
+  height: 350px;
+} 
+.main-img-wrapper .img-sub{
+  width: 50px;
+  height: 50px;
+}
+.main-img-wrapper .img-sub1{
+  width: 50px;
+  height: 50px;
+}
+.img1{
+  margin-left: auto;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 4px;
+  height: 50px;
+  width: 50px;
+}
+.img7{ 
+  display: inline-block;
+} 
+.main-infor{
+
+} 
+.main-infor h1{
+  margin: 0;
+}
+.main-infor th{
+  font-size: 14px;
+  margin-top: -4px;
+  color: #ddd;
+}
+.hh1 {
+  text-decoration: none;
+}
+.hh2::before{
+  
+  content:'|';
+  margin: 0 8px;
+  box-sizing: border-box;
+}
+.hh3::before{
+  content:'|';
+  margin: 0px 8px ; 
+  box-sizing: border-box;
+}
+.pp1{
+  text-decoration: unset;
+  color: rgb(20, 53, 195);
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0px 0.25rem 0px 0px;
+  margin-top: 25px;
+  
+}
+
+.pp3{
+  margin-top: 0px;
+  font-size: 12px;
+  text-decoration: line-through;
+  padding: 0px;
+  display: inline-block;
+}
+.pp4{
+  margin: 0px;
+    padding: 0px;
+    border-style: none;
+    border-width: 1px;
+    border-color: unset;
+    opacity: 1;
+    color: rgb(20, 53, 195);
+    font-weight: 400;
+    text-decoration: unset;
+    font-size: 12px;
+    display: inline-block; 
+}
+.g1{
+  margin-top: 30px;
+  --divider-border-style: dashed;
+  --divider-color: #E4E5F0;
+  --divider-border-width: 1px;
+  display: flex;
+    width: 100%;
+    border-top: var(--divider-border-width) var(--divider-border-style) var(--divider-color);
+}
+.g2{
+  margin-top: 30px;
+  --divider-border-style: dashed;
+  --divider-color: #E4E5F0;
+  --divider-border-width: 1px;
+  display: flex;
+  width: 100%;
+  border-top: var(--divider-border-width) var(--divider-border-style) var(--divider-color);
+}
+.g3{
+  margin-top: 30px;
+  --divider-border-style: dashed;
+  --divider-color: #E4E5F0;
+  --divider-border-width: 1px;
+  display: flex;
+  width: 100%;
+  border-top: var(--divider-border-width) var(--divider-border-style) var(--divider-color);
+}
+.fction{
+  padding: 1rem;
+}
+.l1{
+  text-decoration: none;
+  color: #0d6efd;
+}
+.l2{
+  text-decoration: none;
+  color: #0d6efd;
+}
+.l3{
+  text-decoration: none;
+  color: #0d6efd;
+}
+.khuyen1{
+  margin-top: 35px;
+  font-weight: bold;
+}
+.mm1{
+  color: rgb(237, 33, 1);
+  font-weight: 500px;
+}
+.mm2{
+  color: rgb(237, 33, 1);
+  font-weight: 500px;
+}
+.mm3{
+  color: rgb(237, 33, 1);
+  font-weight: 500px;
+}
+.nut1{
+  display: inline-block; 
+}
+.n2 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;   
+  background-color: blue; 
+  border-radius: 5px;
+  padding: 10px 20px; 
+  width: 200px;
+  display: inline-block; 
+  border: none; 
+  
+}
+.n22{
+  text-align: center;
+ font-size:18px ; 
+ color: white;
+}
+.nn2{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;   
+  background-color: white; 
+  border-radius: 5px;
+  padding: 10px 20px; 
+  width: 250px;
+  display: inline-block; 
+  border: 1px solid blue ; 
+}
+.nn22{
+  text-align: center;
+  font-size: 18px;
+  color: blue;
+}
+.sidebar{
+  width: 20%;
+} 
+.sidebar1{ 
+  background-color: #fff; 
+  border-radius: 12px; 
+  padding: 12px;
+} 
+.sidebar1 .logo{  
+  display: flex; 
+  align-items: center;
+} 
+.sidebar1 .logo img{   
+  width: 40px; 
+  height: 40px; 
+  border-radius: 50%; 
+  border: 1px solid #ddd;
+} 
+.sidebar1 .logo h1{   
+  font-size: 16px;
+  font-weight: bold;
+} 
+.sidebar1 .logo h1:hover {
+  color: blue;
+}
+.sidebar2 { 
+  background-color: #fff; 
+  border-radius: 12px; 
+  padding: 12px; 
+  margin-top: 20px;
+  
+  
+} 
+.sidebar2 h2 { 
+  font-size: 16px;
+} 
+.sidebar2 div { 
+  display: flex; 
+  align-items: center;
+} 
+.sidebar2 div span { 
+  margin-right: 8px;
+}
