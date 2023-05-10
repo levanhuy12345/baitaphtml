@@ -4,6 +4,56 @@ body {
 .content { 
    display: flex;
 } 
+.header {
+ background-color: blue;
+ height: 40px;
+ width: 100%;
+ margin-bottom: 25px;
+ display: flex;
+}
+.header1 { 
+ margin-bottom: 12px;
+}
+.log1{
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  
+}
+.he1{
+  height: 30px;
+  background-color: blue;
+  border: none;
+  width: 130px;
+  height: 40px;
+  padding-left: 60px;
+  padding-right: 5px;
+}
+.he2{
+  height: 30px;
+  background-color: blue;
+  border: none;
+  width: 150px;
+  height: 40px;
+  padding-left: 80px;
+}
+.he3 {
+  height: 30px;
+  background-color: blue;
+  border: none;
+  width: 300px;
+  height: 40px;
+  padding-left: 80px;
+}
+.he4{
+  height: 30px;
+  background-color: blue;
+  border: none;
+  width: 130px;
+  height: 40px;
+
+}
+ 
 .main {
   width: 80% ; 
   display: flex; 
